@@ -17,6 +17,11 @@ jobs:
         with:
           linter: jetbrains/qodana-jvm-android
           
+      - name: 'Qodana Scan License Audit'
+        uses: JetBrains/qodana-action@v4.2.0
+        with:
+          linter: jetbrains/qodana-license-audit
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
