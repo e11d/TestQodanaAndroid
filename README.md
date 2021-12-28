@@ -1,2 +1,1 @@
-"# TestQodanaAndroid" 
 # TestQodanaAndroid
