@@ -1,6 +1,11 @@
 {
   "languages": [
     "XML",
-    "Plain text"
+    "Kotlin",
+    ".gitignore (GitIgnore)",
+    "Groovy",
+    "Shrinker Config",
+    "Plain text",
+    "Properties"
   ]
 }

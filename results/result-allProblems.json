@@ -1,1 +1,253 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Kotlin",
+  "type": "Kotlin Gradle and IDE plugins versions are different",
+  "severity": "High",
+  "comment": "Kotlin version that is used for building with Gradle (1.5.20) differs from the one bundled into the IDE plugin (1.5.10)",
+  "detailsInfo": "Reports that different IDE and Gradle plugin versions are used.\n\nThis can cause inconsistencies between IDE and Gradle builds in error reporting or code behavior.\n\n**Example:**\n\n\n      dependencies {\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:0.0.1\"\n      }\n\nTo fix the problem change the kotlin gradle plugin version to match the version of kotlin that is bundled into the IDE plugin.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "build.gradle",
+      "language": "Groovy",
+      "line": 9,
+      "offset": 9,
+      "length": 60,
+      "code": {
+        "startLine": 7,
+        "length": 60,
+        "offset": 84,
+        "surroundingCode": "    dependencies {\n        classpath \"com.android.tools.build:gradle:7.0.4\"\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20\"\n\n        // NOTE: Do not place your application dependencies here; they belong"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application",
+    "inspectionName": "DifferentKotlinGradleVersion"
+  },
+  "hash": "6e8f392d9a049803527a252f3af0b3fd06569cb0caec39bd5209042e82bb9f04"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of androidx.core:core-ktx than 1.3.2 is available: 1.7.0",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 36,
+      "offset": 20,
+      "length": 30,
+      "code": {
+        "startLine": 34,
+        "length": 30,
+        "offset": 35,
+        "surroundingCode": "dependencies {\n\n    implementation 'androidx.core:core-ktx:1.3.2'\n    implementation 'androidx.appcompat:appcompat:1.2.0'\n    implementation 'com.google.android.material:material:1.3.0'"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "8c28df43d18b0d2e0f797887c7f6fab8a32ddcfdfaa910d06fa84038b9656a5d"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of androidx.appcompat:appcompat than 1.2.0 is available: 1.4.0",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 37,
+      "offset": 20,
+      "length": 36,
+      "code": {
+        "startLine": 35,
+        "length": 36,
+        "offset": 70,
+        "surroundingCode": "\n    implementation 'androidx.core:core-ktx:1.3.2'\n    implementation 'androidx.appcompat:appcompat:1.2.0'\n    implementation 'com.google.android.material:material:1.3.0'\n    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "eca1f9eb2212b50a123b5aad20a14ef09e35806d8d2b5edc9117b0f8178e0379"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of com.google.android.material:material than 1.3.0 is available: 1.4.0",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 38,
+      "offset": 20,
+      "length": 44,
+      "code": {
+        "startLine": 36,
+        "length": 44,
+        "offset": 125,
+        "surroundingCode": "    implementation 'androidx.core:core-ktx:1.3.2'\n    implementation 'androidx.appcompat:appcompat:1.2.0'\n    implementation 'com.google.android.material:material:1.3.0'\n    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'\n    testImplementation 'junit:junit:4.+'"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "5c672cece2604fa0c0aa71f1d0e1afccd621c605ed42a898030466ed3bd41fd2"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of androidx.constraintlayout:constraintlayout than 2.0.4 is available: 2.1.2",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 39,
+      "offset": 20,
+      "length": 50,
+      "code": {
+        "startLine": 37,
+        "length": 50,
+        "offset": 139,
+        "surroundingCode": "    implementation 'androidx.appcompat:appcompat:1.2.0'\n    implementation 'com.google.android.material:material:1.3.0'\n    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'\n    testImplementation 'junit:junit:4.+'\n    androidTestImplementation 'androidx.test.ext:junit:1.1.2'"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "6e8ab00b05aeadb96e424376dcc4c44ba3d069434662c36bbeede45975113bad"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of androidx.test.ext:junit than 1.1.2 is available: 1.1.3",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 41,
+      "offset": 31,
+      "length": 31,
+      "code": {
+        "startLine": 39,
+        "length": 31,
+        "offset": 141,
+        "surroundingCode": "    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'\n    testImplementation 'junit:junit:4.+'\n    androidTestImplementation 'androidx.test.ext:junit:1.1.2'\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "fc58dfcc3dd7e533afcf77cb9990065d45fffe4b688cb58fddb693e03b504041"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Obsolete Gradle Dependency",
+  "severity": "High",
+  "comment": "A newer version of androidx.test.espresso:espresso-core than 3.3.0 is available: 3.4.0",
+  "detailsInfo": "Obsolete Gradle Dependency  \n\nThis detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.  \n\nIssue id: GradleDependency",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 42,
+      "offset": 31,
+      "length": 44,
+      "code": {
+        "startLine": 40,
+        "length": 44,
+        "offset": 133,
+        "surroundingCode": "    testImplementation 'junit:junit:4.+'\n    androidTestImplementation 'androidx.test.ext:junit:1.1.2'\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDependency"
+  },
+  "hash": "2be409ac1befd693cbc5490403990fb4fba268fba9a991a129f3a4c099d98e7c"
+},{
+  "tool": "Code Inspection",
+  "category": "Security",
+  "type": "AllowBackup/FullBackupContent Problems",
+  "severity": "High",
+  "comment": "On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute `android:fullBackupContent` to specify an `@xml` resource which configures which files to backup, or just set `android:fullBackupOnly=true`. More info: <https://developer.android.com/guide/topics/data/autobackup>",
+  "detailsInfo": "AllowBackup/FullBackupContent Problems  \n\nThe `allowBackup` attribute determines if an application's data can be backed up and restored. It is documented at <https://developer.android.com/reference/android/R.attr.html#allowBackup>  \n\nBy default, this flag is set to `true` which means application data can be backed up and restored by the OS. Setting `allowBackup=\"false\"` opts the application out of being backed up and so users can't restore data related to it when they go through the device setup wizard.  \n\nAllowing backups may have security consequences for an application. Currently `adb backup` allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. `adb restore` allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.  \n\nTo fix this warning, decide whether your application should support backup, and explicitly set `android:allowBackup=(true|false)\"`.  \n\nIf not set to false, and if targeting API 23 or later, lint will also warn that you should set `android:fullBackupContent` or `android:fullBackupOnly` to configure auto backup.  \n\nIssue id: AllowBackup  \n\n<https://developer.android.com/guide/topics/data/autobackup>",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/src/main/AndroidManifest.xml",
+      "language": "XML",
+      "line": 6,
+      "offset": 9,
+      "length": 19,
+      "code": {
+        "startLine": 4,
+        "length": 19,
+        "offset": 26,
+        "surroundingCode": "\n    <application\n        android:allowBackup=\"true\"\n        android:icon=\"@mipmap/ic_launcher\"\n        android:label=\"@string/app_name\""
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintAllowBackup"
+  },
+  "hash": "da43a91916606793aa6d9bb790c7c3674dad2ac91d617d74e3c970abadd65043"
+},{
+  "tool": "Code Inspection",
+  "category": "Correctness",
+  "type": "Gradle Dynamic Version",
+  "severity": "High",
+  "comment": "Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)",
+  "detailsInfo": "Gradle Dynamic Version  \n\nUsing `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)  \n\nIssue id: GradleDynamicVersion",
+  "sources": [
+    {
+      "type": "file",
+      "path": "app/build.gradle",
+      "language": "Groovy",
+      "line": 40,
+      "offset": 24,
+      "length": 17,
+      "code": {
+        "startLine": 38,
+        "length": 17,
+        "offset": 157,
+        "surroundingCode": "    implementation 'com.google.android.material:material:1.3.0'\n    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'\n    testImplementation 'junit:junit:4.+'\n    androidTestImplementation 'androidx.test.ext:junit:1.1.2'\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "My_Application.app",
+    "inspectionName": "AndroidLintGradleDynamicVersion"
+  },
+  "hash": "25229af36ced473c4a7b6d0dece18db0c8edc494b0f1007a195ba05b81fb7a51"
+}]}

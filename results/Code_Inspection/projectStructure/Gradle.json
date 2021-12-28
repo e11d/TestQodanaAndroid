@@ -1,3 +1,295 @@
 {
-  "libraries": []
+  "gradleJvm": "#USE_PROJECT_JDK",
+  "libraries": [
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20",
+      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.20",
+      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib:1.5.20",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains:annotations:13.0",
+      "gradleName": "org.jetbrains:annotations:13.0",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20",
+      "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.collection:collection:1.1.0",
+      "gradleName": "androidx.collection:collection:1.1.0",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.lifecycle:lifecycle-common:2.1.0",
+      "gradleName": "androidx.lifecycle:lifecycle-common:2.1.0",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.arch.core:core-common:2.1.0",
+      "gradleName": "androidx.arch.core:core-common:2.1.0",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.annotation:annotation:1.1.0",
+      "gradleName": "androidx.annotation:annotation:1.1.0",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4",
+      "gradleName": "androidx.constraintlayout:constraintlayout-solver:2.0.4",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.core:core-ktx:1.3.2@aar",
+      "gradleName": "androidx.core:core-ktx:1.3.2@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: com.google.android.material:material:1.3.0@aar",
+      "gradleName": "com.google.android.material:material:1.3.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar",
+      "gradleName": "androidx.constraintlayout:constraintlayout:2.0.4@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.appcompat:appcompat:1.2.0@aar",
+      "gradleName": "androidx.appcompat:appcompat:1.2.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.viewpager2:viewpager2:1.0.0@aar",
+      "gradleName": "androidx.viewpager2:viewpager2:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.fragment:fragment:1.1.0@aar",
+      "gradleName": "androidx.fragment:fragment:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar",
+      "gradleName": "androidx.appcompat:appcompat-resources:1.2.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar",
+      "gradleName": "androidx.drawerlayout:drawerlayout:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar",
+      "gradleName": "androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar",
+      "gradleName": "androidx.dynamicanimation:dynamicanimation:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.recyclerview:recyclerview:1.1.0@aar",
+      "gradleName": "androidx.recyclerview:recyclerview:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.transition:transition:1.2.0@aar",
+      "gradleName": "androidx.transition:transition:1.2.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar",
+      "gradleName": "androidx.vectordrawable:vectordrawable-animated:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar",
+      "gradleName": "androidx.vectordrawable:vectordrawable:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.viewpager:viewpager:1.0.0@aar",
+      "gradleName": "androidx.viewpager:viewpager:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar",
+      "gradleName": "androidx.legacy:legacy-support-core-utils:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.loader:loader:1.0.0@aar",
+      "gradleName": "androidx.loader:loader:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.activity:activity:1.0.0@aar",
+      "gradleName": "androidx.activity:activity:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.customview:customview:1.0.0@aar",
+      "gradleName": "androidx.customview:customview:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.core:core:1.3.2@aar",
+      "gradleName": "androidx.core:core:1.3.2@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar",
+      "gradleName": "androidx.cursoradapter:cursoradapter:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.cardview:cardview:1.0.0@aar",
+      "gradleName": "androidx.cardview:cardview:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar",
+      "gradleName": "androidx.lifecycle:lifecycle-runtime:2.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar",
+      "gradleName": "androidx.versionedparcelable:versionedparcelable:1.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar",
+      "gradleName": "androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.savedstate:savedstate:1.0.0@aar",
+      "gradleName": "androidx.savedstate:savedstate:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar",
+      "gradleName": "androidx.lifecycle:lifecycle-livedata:2.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar",
+      "gradleName": "androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.arch.core:core-runtime:2.0.0@aar",
+      "gradleName": "androidx.arch.core:core-runtime:2.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.interpolator:interpolator:1.0.0@aar",
+      "gradleName": "androidx.interpolator:interpolator:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.documentfile:documentfile:1.0.0@aar",
+      "gradleName": "androidx.documentfile:documentfile:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar",
+      "gradleName": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.print:print:1.0.0@aar",
+      "gradleName": "androidx.print:print:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.annotation:annotation-experimental:1.0.0@aar",
+      "gradleName": "androidx.annotation:annotation-experimental:1.0.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: junit:junit:4.13.2",
+      "gradleName": "junit:junit:4.13.2",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.hamcrest:hamcrest-core:1.3",
+      "gradleName": "org.hamcrest:hamcrest-core:1.3",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: junit:junit:4.12",
+      "gradleName": "junit:junit:4.12",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.hamcrest:hamcrest-integration:1.3",
+      "gradleName": "org.hamcrest:hamcrest-integration:1.3",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: org.hamcrest:hamcrest-library:1.3",
+      "gradleName": "org.hamcrest:hamcrest-library:1.3",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: com.squareup:javawriter:2.1.1",
+      "gradleName": "com.squareup:javawriter:2.1.1",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: javax.inject:javax.inject:1",
+      "gradleName": "javax.inject:javax.inject:1",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: com.google.code.findbugs:jsr305:2.0.1",
+      "gradleName": "com.google.code.findbugs:jsr305:2.0.1",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test.ext:junit:1.1.2@aar",
+      "gradleName": "androidx.test.ext:junit:1.1.2@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test.espresso:espresso-core:3.3.0@aar",
+      "gradleName": "androidx.test.espresso:espresso-core:3.3.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test:runner:1.3.0@aar",
+      "gradleName": "androidx.test:runner:1.3.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test:core:1.3.0@aar",
+      "gradleName": "androidx.test:core:1.3.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test:monitor:1.3.0@aar",
+      "gradleName": "androidx.test:monitor:1.3.0@aar",
+      "unresolved": false
+    },
+    {
+      "ideaName": "Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar",
+      "gradleName": "androidx.test.espresso:espresso-idling-resource:3.3.0@aar",
+      "unresolved": false
+    }
+  ]
 }

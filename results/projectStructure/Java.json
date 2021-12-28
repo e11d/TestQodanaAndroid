@@ -1,8 +1,12 @@
 {
   "modules": [
     {
-      "name": "project",
-      "languageLevel": 17
+      "name": "My_Application",
+      "languageLevel": 8
+    },
+    {
+      "name": "My_Application.app",
+      "languageLevel": 8
     }
   ]
 }
