@@ -1,0 +1,15 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/e11d/TestQodanaAndroid",
+        "revisionId": "fe43f937905e5b444c1d9f45ad62ac024f3c8d2c",
+        "branch": "main"
+      }
+    }
+  }
+}
